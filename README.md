@@ -1,5 +1,5 @@
 # i18n-generator 
-To develope multi laguage application, we maintain an i18n googlesheet, and generate json files required by angular-translate. Application will first fetch data from google sheet then compile into i18n json files, logics could find in [app.js](src/app.js)
+To develope multi laguage application, we maintain an i18n googlesheet, and generate json files required by [angular-translate](https://github.com/angular-translate/angular-translate). Application will first fetch data from googlesheet then compile into i18n json files, logics could find in [app.js](src/app.js).
 
 This repo is using [electron-boilerplate](https://github.com/szwacz/electron-boilerplate), could check any further detail there.
 
