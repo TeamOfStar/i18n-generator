@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>i18n file Generator</title>
+	<link rel="stylesheet" type="text/css" href="../node_modules/semantic-ui-css/semantic.css">
+    <script src="helpers/context_menu.js"></script>
+    <script src="helpers/external_links.js"></script>
+
+</head>
+<body style="padding-top:3em">
+	<div class="ui container">
+		<h3>i18n file Generator</h3>
+		<div class="ui right labeled input">
+			<input style="width:580px" id="folderLocation" type="text" name="folderLocation">
+			<button class="ui teal button" id="selectFolderBtn">Select Folder</button>
+			<input type="file" webkitdirectory style="display: none" id="folderSelector" />
+		</div>
+		<div class="ui divider"></div>
+		<button class="ui primary button" type="" id="reloadBtn" disabled>ReloadGoogleSheet</button>
+		<button class="ui primary button" type="" id="generateBtn" disabled>Generate</button>
+		<div class="ui active inline loader" id="loadingIcon"></div>
+		<!--<p>
+		We are using Node.js <script>document.write(process.versions.node)</script>, Chromium <script>document.write(process.versions.chrome)</script>,
+		and Electron <script>document.write(process.versions.electron)</script>.
+	</p>-->
+	</div>
+    <script src="app.js"></script>
+</body>
+</html>
